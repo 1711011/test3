@@ -1,6 +1,6 @@
 music.setVolume(255)
 basic.forever(function () {
-	
+    serial.writeLine("")
 })
 basic.forever(function () {
     music.playTone(262, music.beat(BeatFraction.Half))
